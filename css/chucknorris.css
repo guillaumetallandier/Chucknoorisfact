@@ -1,0 +1,107 @@
+/*****************************************************************************
+ * NE PAS MODIFIER LES PROPRIETES EXISTANTES
+ * AJOUTEZ VOS PROPRIETES EN BAS DE CE FICHIER */
+
+header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body {
+    background-color: #617a00;
+    margin: 0;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+header, footer {
+    color: #eee;
+    padding: 1.5rem;
+}
+
+header img {
+    height: 100px;
+    padding-right: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #eee;
+    padding: 1rem;
+    text-align: center;
+}
+
+main > section:first-child {
+    max-width: 400px;
+}
+
+main > section:nth-child(2) {
+    flex-grow: 1;
+}
+
+footer {
+    color: #eee;
+    text-align: center;
+}
+
+#categories {
+    margin: .5rem;
+}
+
+#categories > button {
+    background-color: #fafafa;
+    border: 1px solid #555;
+    border-radius: .5rem;
+    box-shadow: .2em .2em 2px #555;
+    font-size: 1.2rem;
+    margin: .3em;
+    padding: .5rem 1rem;
+
+}
+
+#categories > button:hover{
+  background-color:#3978d6;
+  color: #eee;
+}
+#joke {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #3978d6;
+    color: #eee;
+    margin: .5rem;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+}
+
+#joke p:first-of-type {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1.5rem;
+}
+
+#cat{
+  background-color: orange;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+#joke img {
+    width: 80px;
+    min-width: 80px;
+}
+
+/* ECRIVEZ VOS PROPRIETES ET MEDIA-QUERIES EN DESSOUS DE CE COMMENTAIRE
+ *****************************************************************************/
